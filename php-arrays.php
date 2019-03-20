@@ -24,3 +24,15 @@ $cars = array(0 => "Mitsubishi");
 echo '<br>';
 
 print_r($cars);
+
+echo "<br>";
+
+echo count($fullNames) . "<br>";
+
+echo is_Array($fullNames) . "<br>";
+
+ksort($fullNames);
+
+print_r($fullNames);
+
+?>
